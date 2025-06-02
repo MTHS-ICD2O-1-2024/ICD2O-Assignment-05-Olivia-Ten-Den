@@ -7,19 +7,19 @@
 "use strict"
 
 function calculate() {
-  let counter = 0
-  let firstInteger = parseInt(document.getElementById("integer-one").value)
-  let answer = firstInteger
-  let secondInteger = parseInt(document.getElementById("integer-two").value)
+  let startingInteger = parseInt(document.getElementById("starting-integer").value)
+  let consecutiveIntegers = parseInt(document.getElementById("consecutive-integers").value)
+  let sum = startingInteger
+  let nextInteger = startingInteger
+  let outputString = "The sum of the consecutive integers is: " + startingInteger.toString()
+  let counter = 1
 
-  while (true) {
-    if (answer < secondInteger) {
-      break
-    }
-    else {
-      answer = answer - secondInteger
-      counter = counter + 1
-    }
+  while (counter < consecutiveIntegers) {
+    sum = sum + nextInteger
+    nextInteger = nextInteger + 1
+    outputString = outputString + " + " + nextInteger.toString()
+    counter = counter + 1
   }
-  document.getElementById('result').innerHTML = "<p>The quotient is " + counter + ", remainder " + answer + ".</p>"
+  outputString = outputString + " = " + sum.toString()
+  document.getElementById('result').innerHTML = "<p>" + outputString + ".</p>"
 }
