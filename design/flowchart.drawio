@@ -68,13 +68,13 @@
                 <mxCell id="30" value="" style="edgeStyle=none;html=1;" parent="1" source="31" target="33" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="31" value="sum = sum +&lt;div&gt;nextInteger&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" parent="1" vertex="1">
+                <mxCell id="31" value="&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;nextInteger =&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;&lt;span style=&quot;scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251); color: rgb(0, 0, 0);&quot;&gt;nextInteger +1&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" parent="1" vertex="1">
                     <mxGeometry x="359" y="339" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="32" value="" style="edgeStyle=none;html=1;" parent="1" source="33" target="35" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="nextInteger =&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;nextInteger +1&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" parent="1" vertex="1">
+                <mxCell id="33" value="&lt;div&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;&lt;span style=&quot;color: rgb(0, 0, 0);&quot;&gt;sum = sum +&lt;/span&gt;&lt;div style=&quot;color: rgb(63, 63, 63); scrollbar-color: rgb(226, 226, 226) rgb(251, 251, 251);&quot;&gt;nextInteger&lt;/div&gt;&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=11;strokeWidth=2;arcSize=12;labelBackgroundColor=default;" parent="1" vertex="1">
                     <mxGeometry x="359" y="439" width="120" height="60" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" value="" style="edgeStyle=none;html=1;" parent="1" source="35" target="36" edge="1">
