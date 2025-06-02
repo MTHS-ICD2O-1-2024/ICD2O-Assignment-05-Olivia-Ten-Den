@@ -15,8 +15,8 @@ function calculate() {
   let counter = 1
 
   while (counter < consecutiveIntegers) {
-    sum = sum + nextInteger
     nextInteger = nextInteger + 1
+    sum = sum + nextInteger
     outputString = outputString + " + " + nextInteger.toString()
     counter = counter + 1
   }
